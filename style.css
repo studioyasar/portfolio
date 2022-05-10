@@ -1,644 +1,308 @@
 
 html, body {
 
- 
-
   margin: 0px;
-
- 
 
   padding: 0px;
 
- 
 }
-
- 
-
-
- 
 
 #mainWrapper {
 
- 
-
   float: left;
 
- 
-
   width: 100%;
-
- 
 
   margin: 0px;
 
- 
-
   padding: 0px;
 
- 
-
 }
-
- 
 
 .mainContainer {
 
- 
-
   width: 90%;
-
- 
 
   margin: 0 auto;
 
- 
-
 }
-
- 
 
 #navContainer {
 
- 
-
   float: left;
 
- 
-
   width: 100%;
-
- 
 
   margin-top: 20px;
 
- 
-
   margin-bottom: 20px;
-
- 
-
+  
 }
-
- 
 
 .logoContainer {
 
- 
-
   float: left;
-
- 
-
   width: 50%;
-
- 
-
   text-align: left;
-
- 
-
   font-size: medium;
-
- 
-
-   font-family:Poppins;
-
- 
+  font-family:Poppins;
+  margin-top: 20px; 
 
 }
-
- 
 
 .navContainer  {
 
- 
-
   float: right;
-
- 
 
   width: 50%;
 
- 
-
   text-align: right;
-
- 
 
   margin-left: %;
 
- 
-
 }
-
- 
 
 .navWrapper {
 
- 
-
-   float: right;
-
- 
-
-    width: 100px;
-
- 
-
+  float: right;
+  width: 80px;
   text-align: left;
-
- 
-
-  padding: 5px;
-
-  padding-right: 0px;
-
- 
-
-  font-size: 16px
-
- 
-
+  padding: 0px;
+  font-size: 16px;
+  margin-top: 20px;
 }
-
- 
 
 .navLink {
 
- 
-
-  float: right;
-
- 
-
-  width: 80px;
-
+  float: left;
+  width: 70px;
   font-family:Poppins;
-
  
-
+  
 }
-
- 
 
 .navLink a {
 
-  float: right;
-
   color: #000;
 
- 
-
   text-decoration: none;
-
  
-
 }
-
- 
-
-.navSeparator {
-
- 
-
-  float: left;
-
- 
-
-  width: 20px;
-
- 
-
-  text-align: center;
-
- 
-
-}
-
- 
 
 .mainbody {
-
- 
-
   float: left;
-
- 
-
   width: 100%;
-
- 
-
 }
 
- 
-
-.topIntro {
-
- 
-
-    float: left;
-
- 
-
-    width: 100%;
-
- 
-
-    font-size: 55px;
-
- 
-
-  padding-top: 130px;
-
-  padding bottom: 200px;
-
- 
-
- 
-
-  font-family:Poppins;
-
-
-
- 
-
+#mytext
+{
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 220px;
+  font-family: Poppins;
 }
 
- 
+#mytext::after{
+  content: '|';
+  animation: blink 0.5s linear infinite alternate;
+  opacity: 0;
+}
+
+@keyframes blink{
+  100%{
+    opacity: 1;
+  }
+}
+
+
 
 #greenContainer {
 
- 
-
   float: left;
-
- 
 
   width: 100%;
 
- 
-
   margin-top: 30px;
-
- 
 
   padding-top: 100px;
 
- 
-
   padding-bottom: 50px;
 
- 
-
 }
-
- 
 
 .greenColumn {
 
- 
-
   float: left;
-
- 
 
   width: 23%;;
 
- 
-
   margin-right: 2%;
-
- 
 
   min-height: 410px;
 
- 
-
   background-color: #886b6d;
-
-
  
 
 }
-
-.greenColumn img, .healthColumn img, .habitatColumn img {
-
-  max-width: 100%;
-
-}
-
- 
 
 .greenColumnLast {
 
- 
-
    margin-right: 0px;
-
- 
 
    width: 25%;
 
- 
-
   background: none;
 
- 
-
 }
-
- 
 
 .topBorderWrapper {
 
- 
-
   float: left;
-
- 
 
   width: 100%;
 
- 
-
 }
-
- 
 
 .topBorder {
 
- 
-
   float: left;
-
- 
 
   width: 50px;
 
- 
-
   height: 10px;
-
- 
 
   background-color: #1d0002;
 
- 
-
 }
-
- 
 
 .greenHeader {
 
- 
-
   float: left;
 
- 
-
   width: 100%;
-
- 
 
   font-size: 50px;
 
- 
-
   color: #1e0105;
-
- 
 
   padding-top: 20px;
 
- 
-
   font-weight: bold;
-
-  font-family: Poppins;
-
+  font-family: Poppins; 
   
 
- 
-
 }
-
- 
 
 .greenContent {
 
- 
-
   float: left;
 
- 
-
   width: 100%;
-
- 
 
   padding-top: 15px;
 
- 
-
   font-size: 30px;
-
   font-family: Poppins;
 
- 
-
 }
-
- 
 
 .viewWork {
 
- 
-
   float: left;
-
   width: 150px;
-
   padding-top: 50px;
-
   font-size: 18px;
-
   color: #1e0105;
-
   font-weight: bold;
-
-  font-family: Poppins;
-
- 
+  font-family: Poppins; 
 
 }
-
- 
 
 .viewArrow {
 
- 
-
   padding-left: 0px;
-
- 
 
   font-weight: bold;
 
- 
-
    font-size: 15px;
 
- 
-
 }
-
- 
 
 .healthColumn {
 
- 
-
   float: left;
-
- 
 
   width: 31%;;
 
- 
-
   margin-left: 2%;
-
- 
 
   min-height: 410px;
 
- 
-
   margin-top: 30px;
-
- 
 
   background-color: #886b6d;
 
- 
-
 }
-
- 
 
 .healthColumnFirst {
 
- 
-
    margin-left: 0px;
-
- 
 
    width: 34%;;
 
- 
-
     background: none;
 
- 
-
 }
-
- 
 
 .habitatWrapp {
 
- 
-
   margin-top: 50px;
 
- 
-
 }
-
- 
 
 .habitatColumn {
 
- 
-
   float: left;
-
- 
 
   width: 47%;;
 
- 
-
   min-height: 350px;
-
- 
 
   background-color: #886b6d;
 
- 
-
 }
-
- 
 
 .habitatColumnLast {
 
- 
-
    margin-left: 6%;
-
- 
 
   background: none;
 
- 
-
 }
-
- 
 
 .topFooter {
 
- 
-
   float: left;
-
- 
 
   width: 100%;
 
- 
-
   margin-top: 200px;
-
- 
 
   margin-bottom: 30px;
 
- 
-
   text-align: center;
 
- 
-
   font-size: 35px;
+  
+   font-family:Poppins; 
 
- 
-
-   font-family:Poppins;
-
- 
-
-  background-color: #ccafb1;
-
- 
+  background-color: grey;
 
   padding-top: 60px;
 
+  padding-bottom: 60px;
+
+
  
 
-  padding-bottom: 60px;
-}
+ 
