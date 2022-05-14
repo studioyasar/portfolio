@@ -7,6 +7,14 @@ html, body {
 
 }
 
+
+
+a:active, a:hover, a:visited {
+  color: #000000;
+}
+
+
+
 #mainWrapper {
 
   float: left;
@@ -50,6 +58,10 @@ html, body {
 
 }
 
+.logoContainer a {
+  text-decoration: none;
+  }
+
 .navContainer  {
 
   float: right;
@@ -58,7 +70,7 @@ html, body {
 
   text-align: right;
 
-  margin-left: %;
+  margin-left: 0%;
 
 }
 
@@ -94,7 +106,7 @@ html, body {
   width: 100%;
 }
 
-#mytext
+#autotype-me
 {
   font-size: 2.5em;
   text-align: center;
@@ -102,7 +114,7 @@ html, body {
   font-family: Poppins;
 }
 
-#mytext::after{
+#autotype-me::after{
   content: '|';
   animation: blink 0.5s linear infinite alternate;
   opacity: 0;
@@ -139,9 +151,16 @@ html, body {
   margin-right: 2%;
 
   min-height: 410px;
+  max-width: 410px;
 
-  background-color: #886b6d;
+  background-color: #ffffff;
  
+
+}
+
+img {
+
+    width: 100%;
 
 }
 
@@ -221,12 +240,19 @@ html, body {
 .viewArrow {
 
   padding-left: 0px;
-
   font-weight: bold;
-
-   font-size: 15px;
+  font-size: 15px;
+  text-decoration:none; 
 
 }
+
+.viewArrow:active, .viewArrow:hover, .viewArrow:visited {
+  color: #004cff;
+}
+
+
+
+
 
 .healthColumn {
 
@@ -240,7 +266,7 @@ html, body {
 
   margin-top: 30px;
 
-  background-color: #886b6d;
+  background-color: #ffffff;
 
 }
 
@@ -268,7 +294,7 @@ html, body {
 
   min-height: 350px;
 
-  background-color: #886b6d;
+  background-color: #ffffff;
 
 }
 
@@ -289,20 +315,11 @@ html, body {
   margin-top: 200px;
 
   margin-bottom: 30px;
-
   text-align: center;
-
   font-size: 35px;
-  
-   font-family:Poppins; 
-
-  background-color: grey;
-
+  font-family:Poppins; 
+  background-color: rgb(0, 154, 244);
   padding-top: 60px;
-
   padding-bottom: 60px;
 
-
- 
-
- 
+}

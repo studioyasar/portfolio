@@ -1,3 +1,5 @@
+
+
 function autoType(id, delay, speed)
 {
   var ori = document.getElementById(id);
@@ -16,7 +18,7 @@ function autoType(id, delay, speed)
  
 }
 
-var id = 'mytext';
+var id = 'autotype-me';
 autoType(id, 1000, 70);
   
 
