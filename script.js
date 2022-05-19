@@ -13,7 +13,7 @@ function autoType(id, delay, speed)
     i++;
     if(i >= s.length)
       clearInterval(interval);
-  }, speed);    
+  }, speed);   
   }, delay);
  
 }

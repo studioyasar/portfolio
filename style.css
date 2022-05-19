@@ -35,71 +35,80 @@ a:active, a:hover, a:visited {
 
 }
 
+
+
 #navContainer {
-
   float: left;
-
   width: 100%;
-
   margin-top: 20px;
-
   margin-bottom: 20px;
+  }
   
-}
-
-.logoContainer {
-
+   
+  
+  .logoContainer {
   float: left;
   width: 50%;
   text-align: left;
   font-size: medium;
   font-family:Poppins;
-  margin-top: 20px; 
-
-}
-
-.logoContainer a {
-  text-decoration: none;
-  }
-
-.navContainer  {
-
-  float: right;
-
-  width: 50%;
-
-  text-align: right;
-
-  margin-left: 0%;
-
-}
-
-.navWrapper {
-
-  float: right;
-  width: 80px;
-  text-align: left;
-  padding: 0px;
-  font-size: 16px;
-  margin-top: 20px;
-}
-
-.navLink {
-
-  float: left;
-  width: 70px;
-  font-family:Poppins;
- 
+  margin-top:20px;
   
-}
-
-.navLink a {
-
-  color: #000;
-
-  text-decoration: none;
- 
-}
+  }
+  
+  .logoContainer a {
+    text-decoration: none;
+    }
+   
+  
+  .navContainer  {
+  float: right;
+  width: 50%;
+  text-align: right;
+  margin-left: 0%;
+  
+  }
+  
+   
+  
+  .navWrapper {
+  float: right;
+  width: 100px;
+  text-align: left;
+  padding: 5px;
+  padding-right: 0px;
+  font-size: 16px;
+  margin-top:20px;
+   
+  
+  }
+  
+   
+  
+  .navLink {
+    float: right;
+    width: 80px;
+    font-family:Poppins;
+  }
+  
+   
+  
+  .navLink a {
+  
+    float: right;
+    color: #000;
+    text-decoration: none;
+  }
+  
+   
+  
+  .navSeparator {
+  float: left;
+  width: 20px;
+  text-align: center;
+  }
+  
+  
 
 .mainbody {
   float: left;
@@ -231,10 +240,14 @@ img {
   width: 150px;
   padding-top: 50px;
   font-size: 18px;
-  color: #1e0105;
+  color: #084298;
   font-weight: bold;
   font-family: Poppins; 
 
+}
+
+.viewWork:hover {
+  color:dimgrey;
 }
 
 .viewArrow {
@@ -246,11 +259,13 @@ img {
 
 }
 
-.viewArrow:active, .viewArrow:hover, .viewArrow:visited {
-  color: #004cff;
+.viewArrow:active,  .viewArrow:visited {
+  color:#084298;
 }
 
-
+.viewArrow:hover {
+  color:dimgrey;
+}
 
 
 
@@ -319,7 +334,135 @@ img {
   font-size: 35px;
   font-family:Poppins; 
   background-color: rgb(0, 154, 244);
-  padding-top: 60px;
-  padding-bottom: 60px;
+ 
 
 }
+
+
+/* bubbles start here */
+
+
+
+.bubbles{
+  height: 200px;
+  width: 100%;
+  background: linear-gradient(180deg, #000000, 5%, #000000, 50%, #000003);
+  position: sticky;
+}
+.bubbles h1 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-family: Poppins;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center; 
+}
+.bubbles div {
+  height: 60px;
+  width: 60px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50px;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  animation: 4s linear infinite;
+}
+div .dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 20%;
+  right: 20%;
+}
+.bubbles div:nth-child(1) {
+  top: 20%;
+  left: 20%;
+  animation: animate 8s linear infinite;
+}
+.bubbles div:nth-child(2) {
+  top: 60%;
+  left: 80%;
+  animation: animate 10s linear infinite;
+}
+.bubbles div:nth-child(3) {
+  top: 40%;
+  left: 40%;
+  animation: animate 3s linear infinite;
+}
+.bubbles div:nth-child(4) {
+  top: 66%;
+  left: 30%;
+  animation: animate 7s linear infinite;
+}
+.bubbles div:nth-child(5) {
+  top: 90%;
+  left: 10%;
+  animation: animate 9s linear infinite;
+}
+.bubbles div:nth-child(6) {
+  top: 30%;
+  left: 60%;
+  animation: animate 5s linear infinite;
+}
+.bubbles div:nth-child(7) {
+  top: 70%;
+  left: 20%;
+  animation: animate 8s linear infinite;
+}
+.bubbles div:nth-child(8) {
+  top: 75%;
+  left: 60%;
+  animation: animate 10s linear infinite;
+}
+.bubbles div:nth-child(9) {
+  top: 50%;
+  left: 50%;
+  animation: animate 6s linear infinite;
+}
+.bubbles div:nth-child(10) {
+  top: 45%;
+  left: 20%;
+  animation: animate 10s linear infinite;
+}
+.bubbles div:nth-child(11) {
+  top: 10%;
+  left: 90%;
+  animation: animate 9s linear infinite;
+}
+.bubbles div:nth-child(12) {
+  top: 20%;
+  left: 70%;
+  animation: animate 7s linear infinite;
+}
+.bubbles div:nth-child(13) {
+  top: 20%;
+  left: 20%;
+  animation: animate 8s linear infinite;
+}
+.bubbles div:nth-child(14) {
+  top: 60%;
+  left: 5%;
+  animation: animate 6s linear infinite;
+}
+.bubbles div:nth-child(15) {
+  top: 90%;
+  left: 80%;
+  animation: animate 9s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: scale(0) translateY(0) rotate(70deg);
+  }
+  100% {
+    transform: scale(1.3) translateY(-100px) rotate(360deg);
+  }
+}
+ 
+/* bubbles end here */

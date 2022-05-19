@@ -151,7 +151,7 @@ max-width: 100%;
   width: 100%;
   margin-top: 15px;
   margin-right: 45;
-  margin-left: 45px;
+  margin-left: 0px;
 
 }
 
@@ -189,9 +189,9 @@ max-width: 100%;
 .leftColumn {
 
   float: left;
-  width: 48%;
+  width: 50%;
   padding-top: 18px;
-  margin-left: 2%;
+  margin-left: 0%;
 
 }
 
@@ -211,8 +211,8 @@ max-width: 100%;
 .rightColumn {
 
   float: left;
-  width: 30%;
-  margin-right: 10%;
+  width: 40%;
+  margin-right: 0%;
   
 
 
@@ -256,14 +256,14 @@ max-width: 100%;
   float: left;
   width: 100%;
   padding-top: 15px;
-  font-size: 12px;
+  font-size: 18px;
   font-family: Poppins;
+  font-weight: 200;
 
 }
 
  
 .topFooter {
- 
   float: left;
   width: 100%;
   margin-top: 200px;
@@ -271,10 +271,7 @@ max-width: 100%;
   text-align: center;
   font-size: 35px;
   font-family:Poppins;
-  background-color: #2e97cf;
+  background-color: #ccc;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 60px;
-  padding-right: 60px
-
 }
