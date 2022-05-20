@@ -23,74 +23,90 @@ a:active, a:hover, a:visited {
 }
 
 
+
+
+
+
 #navContainer {
   float: left;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-
- 
-.logoContainer {
+  }
+  
+   
+  
+  .logoContainer {
   float: left;
   width: 50%;
   text-align: left;
   font-size: medium;
   font-family:Poppins;
-  margin-top:20px; 
+  margin-top:20px;
+  
   }
   
   .logoContainer a {
     text-decoration: none;
-    } 
-
-
-
-.navContainer  {
+    }
+   
+  
+  .navContainer  {
   float: right;
   width: 50%;
   text-align: right;
   margin-left: 0%;
-  margin-top: 20px;
   
   }
   
-
- 
-.navWrapper {
+   
+  
+  .navWrapper {
   float: right;
- width: 100px;
+  width: 100px;
   text-align: left;
   padding: 5px;
   padding-right: 0px;
-  font-size: 16px
-}
-
- 
-
-.navLink {
-
-  float: right;
-  width: 80px;
-  font-family:Poppins;
-}
-
- 
-
-.navLink a {
-  float: right;
-  color: #000;
-  text-decoration: none;
-}
-
- 
-
-.navSeparator {
+  padding-left: 0px;
+  font-size: 16px;
+  margin-top:20px;
+   
+  
+  }
+  
+   
+  
+  .navLink {
+    float: right;
+    width: 80px;
+    font-family:Poppins;
+  }
+  
+   
+  
+  .navLink a {
+  
+    float: right;
+    color: #000;
+    text-decoration: none;
+  }
+  
+   
+  
+  .navSeparator {
   float: left;
   width: 20px;
   text-align: center;
-}
+  }
+  
+  
+  .mainbody {
+    float: left;
+    width: 100%;
+  }
+
+
+
 
 #pageLogoContainer {
 
