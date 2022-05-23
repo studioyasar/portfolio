@@ -71,7 +71,7 @@ a:active, a:hover, a:visited {
   
    
   
-  .navWrapper {
+  .navWrapper, .navfooter {
   float: right;
   width: 100px;
   text-align: left;
@@ -79,7 +79,7 @@ a:active, a:hover, a:visited {
   padding-right: 0px;
   font-size: 16px;
   margin-top:20px;
-   
+  
   
   }
   
@@ -466,3 +466,130 @@ div .dot {
 }
  
 /* bubbles end here */
+
+
+
+
+
+
+
+/* responsive design tags starts here*/
+@media screen and (max-width: 600px) {
+.green1{
+margin-left:0%
+}
+
+.green3{
+  margin-right:0%
+  }
+
+.greenColumn {
+  width: 32%;
+}
+
+.greenColumnLast{
+  width:100%;
+  margin-top:-80px;
+}
+
+#autotype-me{
+  margin-top: 100px;
+}
+
+
+.healthColumnFirst{
+  width:100%;
+}
+
+.health2{
+margin-left:0%;
+margin-right:2%;
+width:49%;
+}
+
+.health3{
+  margin-left:0%;
+  margin-right:0%;
+  width:49%;
+  }
+
+.habitat1{
+width:100%;
+}
+
+.habitatColumnLast{
+  width:100%;
+}
+
+.navfooter{
+  display:block;
+  float:left;
+  text-align:center;
+
+}
+
+.footerlogo{
+  width:100%;
+  text-align:center;
+
+
+}
+
+.footercontainer{
+  width:100%;
+}
+
+}
+
+/* responsive design tags ends here*/
+
+
+
+
+/*hamburger menu starts here*/
+.hambuger-popover {
+	display: none;
+  font-family: poppins;
+  font-size: 18px;
+}
+@media screen and (max-width: 600px) {
+	.navWrapper {
+		display: none;
+	}
+	.hambuger-popover {
+		display: block;
+	}
+}
+.popover-btn {
+	margin:20px 0 0 0;
+	cursor:pointer;
+  
+}
+.popover-nav-block {
+	 min-width:100%;
+	 width:100%;
+	 left: 0;
+	 background: #fff;
+	 border-radius: 3px;
+	 line-height: 1.46667;
+	 padding:0 17px;
+	 margin-top: 10px;
+	 list-style:none;
+	 display: none;
+	 z-index:99;
+   position:absolute;
+ }
+.popover-nav-block  li {
+  padding-bottom: 5px; 
+}
+.hide-block {
+  display:block !important;
+}
+
+.popover-link {
+text-decoration:none; 
+
+}
+
+
+/*hamburger menu ends here*/

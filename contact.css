@@ -252,22 +252,15 @@ margin-top: 20px;
  
 
   float: left;
-
- 
-
   width: 100%;
 
  
 
-  font-size: 50px;
-
- 
+  font-size: 25px;
 
   color: #1e0105;
-
- 
-
   padding-top: 20px;
+  padding-bottom:40px;
 
  
 
@@ -301,16 +294,17 @@ margin-top: 20px;
 
 .fieldWrapper {
 
-              float: left;
+ float: left;
 
-              width: 60%;
+ width: 100%;
 
 }
 
 .selectWrapper {
 float: left;
-width: 35%;
-margin-left: 5%;
+width: 100%;
+margin-left: 0%;
+margin-top:20px;
 }
 
 .firstContainer {
@@ -328,13 +322,14 @@ margin-top: 30px;
 
 .NameContent {
 float: left;
-width: 47%;
-margin-right: 6%;
+width: 100%;
+margin-right: 0%;
 }
 
 .EmailContent {
 float: left;
-width: 47%;
+width: 100%;
+padding-top:25px;
 }
 
 .messageContent { 
@@ -403,3 +398,92 @@ margin-top: 10px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+
+/* responsive design tags starts here*/
+@media screen and (max-width: 600px){
+
+  .navfooter{
+    display:block;
+    float:left;
+    text-align:center;
+  
+  }
+  
+  .footerlogo{
+    width:100%;
+    text-align:center;
+    margin-bottom:20px;
+   
+  
+  
+  }
+  
+  .footercontainer{
+    width:100%;
+  }
+  
+  .navfooter{
+    width:33%;
+  }
+  .navLink{
+    float:none;
+  }
+  
+  
+  }
+  
+  
+  /* responsive design tags ends here*/
+  
+  
+
+
+
+/*hamburger menu starts here*/
+.hambuger-popover {
+	display: none;
+  font-family: poppins;
+  font-size: 18px;
+}
+@media screen and (max-width: 600px) {
+	.navWrapper {
+		display: none;
+	}
+	.hambuger-popover {
+		display: block;
+	}
+}
+.popover-btn {
+	margin:20px 0 0 0;
+	cursor:pointer;
+  
+}
+.popover-nav-block {
+	 min-width:100%;
+	 width:100%;
+	 left: 0;
+	 background: #fff;
+	 border-radius: 3px;
+	 line-height: 1.46667;
+	 padding:0 17px;
+	 margin-top: 10px;
+	 list-style:none;
+	 display: none;
+	 z-index:99;
+   position:absolute;
+ }
+.popover-nav-block  li {
+  padding-bottom: 5px; 
+}
+.hide-block {
+  display:block !important;
+}
+
+.popover-link {
+text-decoration:none; 
+
+}
+
+
+/*hamburger menu ends here*/

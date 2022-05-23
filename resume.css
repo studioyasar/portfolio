@@ -375,3 +375,54 @@ margin-top: 10px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+
+
+
+/*hamburger menu starts here*/
+.hambuger-popover {
+	display: none;
+  font-family: poppins;
+  font-size: 18px;
+}
+@media screen and (max-width: 600px) {
+	.navWrapper {
+		display: none;
+	}
+	.hambuger-popover {
+		display: block;
+	}
+}
+.popover-btn {
+	margin:20px 0 0 0;
+	cursor:pointer;
+  
+}
+.popover-nav-block {
+	 min-width:100%;
+	 width:100%;
+	 left: 0;
+	 background: #fff;
+	 border-radius: 3px;
+	 line-height: 1.46667;
+	 padding:0 17px;
+	 margin-top: 10px;
+	 list-style:none;
+	 display: none;
+	 z-index:99;
+   position:absolute;
+ }
+.popover-nav-block  li {
+  padding-bottom: 5px; 
+}
+.hide-block {
+  display:block !important;
+}
+
+.popover-link {
+text-decoration:none; 
+
+}
+
+
+/*hamburger menu ends here*/
