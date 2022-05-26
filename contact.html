@@ -203,117 +203,107 @@
 
       <!-- iput fields-->
 
-      <div class="fieldWrapper">
+      <form class="fieldWrapper" id="fieldWrapper" name="fieldWrapper" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScufr29S6cJndsYZjyWqlNWo66htuR0MGwrLOWN2HcSOKIBsg/formResponse" target="_self" method="post">
 
-                                                                                  <div class="firstContainer">
+       
+        
+<div class="firstContainer">
 
-                                                                                                <div class="NameContent">
+   <div class="NameContent">
 
-                                                                                                             <div class="labelText">
+   <div class="labelText">
 
-                                                                                                                           Name
+Name
 
-                                                                                                             </div>
+  </div>
 
-                                                                                                             <div class="labelText">
+  <div class="labelText">
 
-                                                                                                                           <input type="text" name="contact_name" id="contact_name" class="contact_field" value="" placeholder="Please type here" />
+  <input type="text" name="entry.269619604" id="contact_name" class="contact_field" value="" placeholder="Please type here" />
+  
+    </div>
 
-                                                                                                             </div>
+  </div>
 
-                                                                                                </div>
+    <div class="EmailContent">
 
-                                                                                                <div class="EmailContent">
+     <div class="labelText">
 
-                                                                                                             <div class="labelText">
+    Email
 
-                                                                                                                           Email
+     </div>
 
-                                                                                                             </div>
+     <div class="labelText">
 
-                                                                                                             <div class="labelText">
+     <input type="text" name="entry.740500560" id="contact_email" class="contact_field" value="" placeholder="Please type here" />
 
-                                                                                                                           <input type="text" name="contact_email" id="contact_email" class="contact_field" value="" placeholder="Please type here" />
+      </div>
+ </div>
 
-                                                                                                             </div>
+ <div class="EmailContent">
 
-                                                                                                </div>
+  <div class="labelText">
 
-                                                                                  </div>
+ Topic
 
-                                                                                  <div class="secondContainer">
+  </div>
 
-                                                                                                <div class="messageContent">
+  <div class="labelText">
 
-                                                                                                             <div class="labelText">
+  <input type="text" name="entry.1662169179" id="contact_topic" class="contact_field" value="" placeholder="Please type here" />
 
-                                                                                                                           Message
+   </div>
+</div>
 
-                                                                                                             </div>
+      </div>
 
-                                                                                                             <div class="labelText">
+<div class="secondContainer">
 
-                                                                                                             <textarea name="contact_name" id="contact_name" class="contact_textarea" value="" placeholder="Please type here"></textarea>
+ <div class="messageContent">
 
-                                                                                                             </div>
+ <div class="labelText">
 
-                                                                                                </div>
+    Message
 
-                                                                                  </div>
+   </div>
 
-                                                                    </div>
+  <div class="labelText">
 
-                                                                    <!-- select options -->
+ <textarea name="entry.259675209" id="contact_name" class="contact_textarea" value="" placeholder="Please type here"></textarea>
 
-                                                                    <div class="selectWrapper">
+  </div>
 
-                                                                                  <div class="messageContent">
+   </div>
 
-                                                                                                <div class="labelText">
+  </div>
 
-                                                                                                             Please Select
 
-                                                                                                </div>
+  </div>
 
-                                                                                                <div class="checkText">
+ <!-- select options -->
 
-                                                                                                             <input type="checkbox" name="contact_check" id="contact_check" class="contact_check" value="1" /> UX Design
+<div class="selectWrapper">
 
-                                                                                                </div>
+ <div class="messageContent">
 
-                                                                                                <div class="checkText">
+ 
 
-                                                                                                             <input type="checkbox" name="contact_check" id="contact_check" class="contact_check" value="2" /> UI Design
+   <div class="labelText">
 
-                                                                                                </div>
+   <!--<input type="submit" name="contact_submit" id="contact_submit" value="Submit" /> --->
+   <button type="button" name="contact_submit" id="contact_submit">Submit</button>
+ </div>
 
-                                                                                                <div class="checkText">
 
-                                                                                                             <input type="checkbox" name="contact_check" id="contact_check" class="contact_check" value="3" /> UX/UI Design
-
-                                                                                                </div>
-
-                                                                                                <div class="checkText">
-
-                                                                                                             <input type="checkbox" name="contact_check" id="contact_check" class="contact_check" value="4" /> Application
-
-                                                                                                </div>
-
-                                                                                                <div class="checkText">
-
-                                                                                                             <input type="checkbox" name="contact_check" id="contact_check" class="contact_check" value="5" /> Coffee!
-
-                                                                                                </div>
-
-                                                                                                <div class="labelText">
-
-                                                                                                             <input type="submit" name="contact_submit" id="contact_submit" value="Submit" />
-
-                                                                                                </div>
-
-                                                                                  </div>
 
  </div>
+
+ </div>
+
+
+</form> 
+<iframe name="hidden_iframe" id="hidden_iframe" 
+ style="display:none;" onload="if(submitted) {}"></iframe>
 
 <!-- End of select options -->
 
@@ -515,7 +505,22 @@
 
     </div>
 
- 
+    <script type="text/javascript">var submitted=false;</script>
+    <script type="text/javascript">
+
+
+$(function(){
+
+$("#contact_submit").click(function(){
+  $("#fieldWrapper")[0].submit();
+  return false;
+  event.preventDefault();
+  
+});
+});
+
+
+    </script>
 
   </body>
 
