@@ -286,6 +286,12 @@ padding: 0px;
       padding-bottom: 60px;
     }
 
+    .footerlogo{
+      margin-top:20px;
+    
+    }
+    
+
 /* responsive design tags starts here*/
 @media screen and (max-width: 600px){
   .overviewContainer{
