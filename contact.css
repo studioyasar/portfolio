@@ -401,6 +401,9 @@ margin-top: 10px;
   padding-bottom: 60px;
 }
 
+.footerlogo{
+  margin-top:0px;
+}
 
 /* responsive design tags starts here*/
 @media screen and (max-width: 600px){
