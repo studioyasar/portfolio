@@ -402,7 +402,12 @@ margin-top: 10px;
 }
 
 .footerlogo{
-  margin-top:0px;
+  margin-top:20px;
+
+}
+
+.footercontainer{
+  margin-top:20px;
 }
 
 /* responsive design tags starts here*/
